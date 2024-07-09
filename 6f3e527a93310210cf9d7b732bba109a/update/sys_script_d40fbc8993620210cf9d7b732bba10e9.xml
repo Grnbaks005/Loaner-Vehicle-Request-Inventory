@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1119662_loaner_v_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1119662_loaner_v_vehicle_tracker">vehicle_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Current Vehicle status update</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var vehStat = current.vehicle_status; // creates a variable for the current vehicle status field
+    var grvt = new GlideRecord('x_1119662_loaner_v_lva_user'); // creates a new GlideRecord object for the 'Vehicle Loaner Catalog' table.
+    grvt.addQuery('sys_id', current.vehicle); // adds a query condition for sys_id on the current vehicle table
+    grvt.query(); // executes through query
+
+     if (grvt.next()) { //Iterates through vehicle tracker table for true "if" statements
+
+        if (vehStat == 'Pending Release' || vehStat == 'Out On Field' || vehStat == 'Returned For Inspection' || vehStat == 'Sent For Servicing') {
+            grvt.status = 'Unavailable'; // If vehicle status is Pending Release, Out On Field, Returned For Inspection, or Sent For Servicing sets status  field on loaner vehicle to Unavailable.
+			
+        } else if (vehStat == 'Returned To Warehouse') {
+            grvt.status = 'Available'; // If vehicle status on tracker table is Returned To Warehouse, sets status to Available.
+			
+        } else if (vehStat == 'Decommissioned') {
+            grvt.status = 'Decommissioned'; // If vehicle status on tracker table is Decommissioned, sets status to Decommissioned.
+			
+        }
+		
+		grvt.update(); // updates the current record in the database
+
+   /* if (grvt.next()) { // If a record is found, update the status based on the vehicle status
+
+        switch (vehStat) {
+            case 'Pending Release':
+            case 'Out On Field':
+            case 'Returned For Inspection':
+            case 'Sent For Servicing':
+                grvt.status == 'Unavailable';
+                break;
+            case 'Returned To Warehouse':
+                grvt.status == 'Available';
+                break;
+            case 'Decommissioned':
+                grvt.status == 'Decommissioned';
+                break;
+            default:
+                // handle other cases 
+                break;
+        } // The switch statement iterates through each case in search of a match. If there is a match, the associated block of code is executed.
+        grvt.update();*/
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-31 18:26:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d40fbc8993620210cf9d7b732bba10e9</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Current Vehicle status update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sys_script_d40fbc8993620210cf9d7b732bba10e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-01 07:32:30</sys_updated_on>
+        <template>vehicle_statusSAMEASvehicle_status^EQ</template>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d40fbc8993620210cf9d7b732bba10e9"/>
+</record_update>

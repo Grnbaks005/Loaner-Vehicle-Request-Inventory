@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider>
+        <sp_widget display_value="Copy of SC Catalog Item">ddbf560c937a0210cf9d7b732bba10f8</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 08:58:08</sys_created_on>
+        <sys_id>a9bf5a8c937a0210cf9d7b732bba10ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_a9bf5a8c937a0210cf9d7b732bba10ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 08:58:08</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</application>
+        <file_path/>
+        <instance_id>be7473eb1b06bd5439a54089bd4bcbaf</instance_id>
+        <instance_name>dev197915</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_a9bf5a8c937a0210cf9d7b732bba10ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider><sp_widget display_value="Copy of SC Catalog Item">ddbf560c937a0210cf9d7b732bba10f8</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 08:58:08</sys_created_on><sys_id>a9bf5a8c937a0210cf9d7b732bba10ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>scToggleData.Copy of SC Catalog Item</sys_name><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_a9bf5a8c937a0210cf9d7b732bba10ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 08:58:08</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>-501981375</payload_hash>
+        <record_name>scToggleData.Copy of SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>a9bf1afa93310210cf9d7b732bba1022</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 08:58:08</sys_created_on>
+        <sys_id>a5bf5a8c937a0210cf9d7b732bba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190015e7f690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 08:58:08</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>edbf5a8cfd7a0210496af6f1e3533dae</update_guid>
+        <update_guid_history>edbf5a8cfd7a0210496af6f1e3533dae:-501981375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="scToggleData.Copy of SC Catalog Item">cb166e4493ba0210cf9d7b732bba10c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 09:26:06</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>9a6e3071b42c4e329c845aff4a623704</sys_id>
+        <sys_metadata>a9bf5a8c937a0210cf9d7b732bba10ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_scope_delete display_value="">544e485496994b7a97244aaa74b395e4</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_a9bf5a8c937a0210cf9d7b732bba10ad</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_a9bf5a8c937a0210cf9d7b732bba10ad">a5bf5a8c937a0210cf9d7b732bba10af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 09:26:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="vehicle_servicing" table="x_1119662_loaner_v_vehicle_servicing">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Vehicle Servicing</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vehicle_servicing</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <name>x_1119662_loaner_v_vehicle_servicing</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1119662_loaner_v_vehicle_tracker">x_1119662_loaner_v_vehicle_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 06:54:52</sys_created_on>
+        <sys_id>0e074ca193c20210cf9d7b732bba1071</sys_id>
+        <sys_name>Vehicle Servicing</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sys_dictionary_x_1119662_loaner_v_vehicle_servicing_vehicle_servicing</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 07:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</application>
+        <file_path/>
+        <instance_id>be7473eb1b06bd5439a54089bd4bcbaf</instance_id>
+        <instance_name>dev197915</instance_name>
+        <name>sys_dictionary_x_1119662_loaner_v_vehicle_servicing_vehicle_servicing</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="vehicle_servicing" table="x_1119662_loaner_v_vehicle_servicing"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Vehicle Servicing</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>vehicle_servicing</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>x_1119662_loaner_v_vehicle_servicing</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1119662_loaner_v_vehicle_tracker">x_1119662_loaner_v_vehicle_tracker</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-08 06:54:52</sys_created_on><sys_id>0e074ca193c20210cf9d7b732bba1071</sys_id><sys_name>Vehicle Servicing</sys_name><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope><sys_update_name>sys_dictionary_x_1119662_loaner_v_vehicle_servicing_vehicle_servicing</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-08 07:04:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1581577703</payload_hash>
+        <record_name>Vehicle Servicing.Vehicle Servicing</record_name>
+        <reverted_from/>
+        <source>a9bf1afa93310210cf9d7b732bba1022</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 07:04:59</sys_created_on>
+        <sys_id>d259846593c20210cf9d7b732bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f57050d0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 07:04:59</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>5e598465a4c20210fdb522db37911316</update_guid>
+        <update_guid_history>5e598465a4c20210fdb522db37911316:-1581577703,da074ca155c20210fc6abced5f86e69a:821846921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 05:14:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0e539f384eac407183e77cdc2ef86371</sys_id>
+        <sys_metadata>0e074ca193c20210cf9d7b732bba1071</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Servicing</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_parent display_value="Vehicle Servicing">e45d731993820210cf9d7b732bba10f2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_scope_delete display_value="">544e485496994b7a97244aaa74b395e4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1119662_loaner_v_vehicle_servicing_vehicle_servicing</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1119662_loaner_v_vehicle_servicing_vehicle_servicing">d259846593c20210cf9d7b732bba1017</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 05:14:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

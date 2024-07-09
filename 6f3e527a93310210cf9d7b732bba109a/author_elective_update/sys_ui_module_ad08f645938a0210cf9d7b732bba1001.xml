@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Vehicle Tracker ">61087205938a0210cf9d7b732bba1079</application>
+        <filter/>
+        <name>Vehicle Tracker s</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>lva_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 06:31:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad08f645938a0210cf9d7b732bba1001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Tracker s</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sys_ui_module_ad08f645938a0210cf9d7b732bba1001</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 06:31:12</sys_updated_on>
+        <table>x_1119662_loaner_v_vehicle_tracker</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</application>
+        <file_path/>
+        <instance_id>be7473eb1b06bd5439a54089bd4bcbaf</instance_id>
+        <instance_name>dev197915</instance_name>
+        <name>sys_ui_module_ad08f645938a0210cf9d7b732bba1001</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Vehicle Tracker ">61087205938a0210cf9d7b732bba1079</application><filter/><name>Vehicle Tracker s</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>lva_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-07 06:31:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad08f645938a0210cf9d7b732bba1001</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicle Tracker s</sys_name><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope><sys_update_name>sys_ui_module_ad08f645938a0210cf9d7b732bba1001</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-07 06:31:12</sys_updated_on><table>x_1119662_loaner_v_vehicle_tracker</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1967901262</payload_hash>
+        <record_name>Vehicle Tracker s</record_name>
+        <reverted_from/>
+        <source>a9bf1afa93310210cf9d7b732bba1022</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 06:31:12</sys_created_on>
+        <sys_id>6508f645938a0210cf9d7b732bba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f51bfc0ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 06:31:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ad08f645f58a0210ae051da3b159d604</update_guid>
+        <update_guid_history>ad08f645f58a0210ae051da3b159d604:1967901262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 06:45:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>047fb68ac99c43ccb8d2adbbdae26f44</sys_id>
+        <sys_metadata>ad08f645938a0210cf9d7b732bba1001</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Tracker s</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_scope_delete display_value="">544e485496994b7a97244aaa74b395e4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_ad08f645938a0210cf9d7b732bba1001</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_ad08f645938a0210cf9d7b732bba1001">6508f645938a0210cf9d7b732bba1005</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 06:45:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

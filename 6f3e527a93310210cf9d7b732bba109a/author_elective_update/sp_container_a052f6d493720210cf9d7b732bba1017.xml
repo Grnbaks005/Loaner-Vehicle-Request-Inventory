@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Vending Vehicles - Container 7</name>
+        <order>7</order>
+        <sp_page display_value="vending_vehicles">d4de890c93f20210cf9d7b732bba105c</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 04:57:55</sys_created_on>
+        <sys_id>a052f6d493720210cf9d7b732bba1017</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Vending Vehicles - Container 7</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sp_container_a052f6d493720210cf9d7b732bba1017</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 06:11:21</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</application>
+        <file_path/>
+        <instance_id>be7473eb1b06bd5439a54089bd4bcbaf</instance_id>
+        <instance_name>dev197915</instance_name>
+        <name>sp_container_a052f6d493720210cf9d7b732bba1017</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Vending Vehicles - Container 7</name><order>7</order><sp_page display_value="vending_vehicles">d4de890c93f20210cf9d7b732bba105c</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-11 04:57:55</sys_created_on><sys_id>a052f6d493720210cf9d7b732bba1017</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Vending Vehicles - Container 7</sys_name><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope><sys_update_name>sp_container_a052f6d493720210cf9d7b732bba1017</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 06:11:21</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>2112117991</payload_hash>
+        <record_name>Vending Vehicles - Container 7</record_name>
+        <reverted_from/>
+        <source>a9bf1afa93310210cf9d7b732bba1022</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 06:11:21</sys_created_on>
+        <sys_id>c023431c93b20210cf9d7b732bba1058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19005ec29840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 06:11:21</sys_updated_on>
+        <type>Container</type>
+        <update_guid>0c23431c8fb202108b71c8c88bb8bb57</update_guid>
+        <update_guid_history>0c23431c8fb202108b71c8c88bb8bb57:2112117991,db527258a1720210e9a6a3bd77a6d82d:-849557912,6852f6d47872021009ccd3d8e30e7018:483733481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vending Vehicles - Container 7">51c5879c93b20210cf9d7b732bba10cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 06:22:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>53eef28e3b2740b6a5482d0913212344</sys_id>
+        <sys_metadata>a052f6d493720210cf9d7b732bba1017</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vending Vehicles - Container 7</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_scope_delete display_value="">544e485496994b7a97244aaa74b395e4</sys_scope_delete>
+        <sys_update_name>sp_container_a052f6d493720210cf9d7b732bba1017</sys_update_name>
+        <sys_update_version display_value="sp_container_a052f6d493720210cf9d7b732bba1017">c023431c93b20210cf9d7b732bba1058</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 06:22:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

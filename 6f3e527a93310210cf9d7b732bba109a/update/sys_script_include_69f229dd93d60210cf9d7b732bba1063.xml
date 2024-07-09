@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1119662_loaner_v.grabLocation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Autopopulates office location when requested for field is populated. </description>
+        <name>grabLocation</name>
+        <script><![CDATA[var grabLocation = Class.create();
+grabLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	locationDetail: function() {
+		
+        var location = ''; 
+		var userId = this.getParameter('sysparm_user_sysid');
+		
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', userId);
+		gr.query(); 
+		
+        if (gr.next()) {
+			location = gr.getValue('location'); 
+			
+		}    
+          
+        return location;
+    },
+
+    type: 'grabLocation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 05:14:58</sys_created_on>
+        <sys_id>69f229dd93d60210cf9d7b732bba1063</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>grabLocation</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sys_script_include_69f229dd93d60210cf9d7b732bba1063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 06:07:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

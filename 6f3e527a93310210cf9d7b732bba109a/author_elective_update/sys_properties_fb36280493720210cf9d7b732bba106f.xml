@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 00:07:28</sys_created_on>
+        <sys_id>fb36280493720210cf9d7b732bba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_update_name>sys_properties_fb36280493720210cf9d7b732bba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 00:07:28</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=fb36280493720210cf9d7b732bba106f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</application>
+        <file_path/>
+        <instance_id>be7473eb1b06bd5439a54089bd4bcbaf</instance_id>
+        <instance_name>dev197915</instance_name>
+        <name>sys_properties_fb36280493720210cf9d7b732bba106f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 00:07:28</sys_created_on><sys_id>fb36280493720210cf9d7b732bba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</sys_name><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope><sys_update_name>sys_properties_fb36280493720210cf9d7b732bba106f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 00:07:28</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=fb36280493720210cf9d7b732bba106f"/></record_update>]]></payload>
+        <payload_hash>-458380148</payload_hash>
+        <record_name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>a9bf1afa93310210cf9d7b732bba1022</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 00:07:28</sys_created_on>
+        <sys_id>4446280493720210cf9d7b732bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fff78a9220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 00:07:28</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>4c462804d3720210f9a0e0e3af725b72</update_guid>
+        <update_guid_history>4c462804d3720210f9a0e0e3af725b72:-458380148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 01:18:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>95dd0f2a25fb42c0bcbb6a4f2302d190</sys_id>
+        <sys_metadata>fb36280493720210cf9d7b732bba106f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.https_dev197915_service_now_com_now_sp.enable_rem_conversion</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1119662_loaner_v">6f3e527a93310210cf9d7b732bba109a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">6f3e527a93310210cf9d7b732bba109a</sys_scope>
+        <sys_scope_delete display_value="">544e485496994b7a97244aaa74b395e4</sys_scope_delete>
+        <sys_update_name>sys_properties_fb36280493720210cf9d7b732bba106f</sys_update_name>
+        <sys_update_version display_value="sys_properties_fb36280493720210cf9d7b732bba106f">4446280493720210cf9d7b732bba1073</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 01:18:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
